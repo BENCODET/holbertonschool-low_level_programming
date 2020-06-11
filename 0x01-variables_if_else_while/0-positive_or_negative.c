@@ -7,7 +7,6 @@
  *
  * Return: Always 0 (Success)
  */
-
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -18,15 +17,15 @@ n = rand() - RAND_MAX / 2;
   /* your code goes there */
 if (n > 0)
 {
-printf("is positive\n");
+  printf("is positive = %d\n",n);
 }
 if (n == 0)
 {
-printf("is zero\n");
+  printf("is zero = %d\n",n);
 }
 if (n < 0)
 {
-printf("is negative\n");
+  printf("is negative = %d\n",n);
 }
 return (0);
 }
