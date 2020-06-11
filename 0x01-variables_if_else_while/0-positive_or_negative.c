@@ -22,7 +22,7 @@ printf("is positive\n");
 }
 if (n == 0)
 {
-printf("is is zero\n");
+printf("is zero\n");
 }
 if (n < 0)
 {
