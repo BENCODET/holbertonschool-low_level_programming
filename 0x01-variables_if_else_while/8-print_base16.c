@@ -17,6 +17,8 @@ char l;
 		putchar(n);
 	}
 	for (l = 'a'; l <= 'f' ; l++)
+	{
 		putchar(l);
+	}
 	return (0);
 }
