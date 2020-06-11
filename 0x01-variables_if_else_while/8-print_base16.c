@@ -20,5 +20,6 @@ char l;
 	{
 		putchar(l);
 	}
+	putchar('\n');
 	return (0);
 }
