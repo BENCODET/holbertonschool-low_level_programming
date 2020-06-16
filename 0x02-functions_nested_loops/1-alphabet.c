@@ -1,4 +1,10 @@
 #include"holberton.h"
+
+/**
+ * print_alphabet - print alphabets.
+ *
+ */
+
 void print_alphabet(void)
 {
 	int n;
