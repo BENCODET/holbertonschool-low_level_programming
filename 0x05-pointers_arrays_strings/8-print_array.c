@@ -1,11 +1,11 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * print_array - a function that that prints n elements of an array of integers
+ * print_array - function that that prints n elements of an array of integers
  *
  * @a: array
  * @n: integer
- * Return: void
+ * Return: nothing
  */
 
 void print_array(int *a, int n)
