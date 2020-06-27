@@ -19,7 +19,7 @@ char *cap_string(char *s)
 		i = 0;
 		j = 1;
 		s++;
-		while (i < 13 && test)
+		while (i < 13 && j)
 		{
 			if (*s == l[i] && *(s + 1) >= 97 && *(s + 1) <= 122)
 			{
