@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-* print_number - check the code for Holberton School students.
+* print_number - prints an integer
 * @n: integer.
-*Return: Always 0.
+*Return: nothing
 */
 void print_number(int n)
 {
