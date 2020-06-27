@@ -1,30 +1,26 @@
 #include "holberton.h"
+#include <math.h>
 /**
  * print_number - prints an integer
- * @n: integer.
- *Return: nothing
+ * @n: integer
+ *
+ * Return: void
  */
 void print_number(int n)
 {
-	unsigned int a, b, c;
+	int number = log10(n) + 1;
+	int i;
+
 
 	if (n < 0)
 	{
-		_putchar(45);
-		a = n * -1;
+		_putchar('-');
+		n *= -1;
 	}
-	else
+
+	for (i = 0; i < number; i++)
 	{
-		a = n;
+		_putchar((n / pow(10, number)) + '0');
 	}
-	b = a;
-	c = 1;
-	while (b > 9)
-	{
-		b /= 10;
-		c *= 10;
-	}
-	for (; c >= 1; c /= 10)
-	{
-		_putchar(((a / c) % 10) + 48);
-	}
+	_putchar('\n');
+}
